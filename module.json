@@ -1,0 +1,41 @@
+{
+  "id": "crooked-moon-encounters-pt-br",
+  "title": "The Crooked Moon — Encontros (PT-BR)",
+  "description": "Roll Table comunitária com resumos em português dos encontros das cartas de The Crooked Moon. Requer o módulo oficial para acessar criaturas e itens referenciados.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Comunidade"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0",
+          "verified": "5.0"
+        }
+      }
+    ],
+    "modules": [
+      {
+        "id": "the-crooked-moon-2014",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.4.1"
+        }
+      }
+    ]
+  },
+  "manifest": "https://github.com/breno-hof/crooked-moon-encounters-pt-br/releases/latest/download/module.json",
+  "download": "https://github.com/breno-hof/crooked-moon-encounters-pt-br/releases/download/v1.0.0/crooked-moon-encounters-pt-br.zip"
+}
