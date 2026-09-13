@@ -21,7 +21,7 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
    `https://github.com/breno-hof/crooked-moon-encounters-pt-br/releases/latest/download/module.json`
 
 4. Ative os dois módulos no mundo.
-5. Um GM deve entrar no mundo; a tabela `The Crooked Moon — Encontros (PT-BR)` será criada automaticamente uma única vez.
+5. Um GM deve entrar no mundo; a tabela `The Crooked Moon — Encontros (PT-BR)` será criada automaticamente uma única vez e terá acesso padrão **somente para o Mestre**. Se a tabela já existir de uma versão anterior, ela será atualizada pelo módulo.
 
 ## Compatibilidade
 
@@ -31,6 +31,6 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
 
 ## Desenvolvimento
 
-Os dados públicos e resumidos estão em `data/encounters.json`. O script de inicialização cria a Roll Table no mundo, evitando empacotar ou duplicar os compêndios proprietários do módulo oficial.
+Os dados públicos e resumidos estão em `data/encounters.json`. Cada `summary` e `result` contém links de compêndio para as criaturas, itens e tabelas necessários à montagem do encontro. O script de inicialização cria a Roll Table no mundo, evitando empacotar ou duplicar os compêndios proprietários do módulo oficial.
 
 Uma release é criada automaticamente ao publicar uma tag no formato `vMAJOR.MINOR.PATCH`.

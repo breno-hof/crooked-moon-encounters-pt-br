@@ -3,236 +3,258 @@
     "id": 1,
     "title": "Banho de Luar",
     "difficulty": "Médio",
-    "summary": "Uma criatura alada repousa numa poça rasa. Se perturbada, luta brevemente e foge; a água pode render uma poção por personagem.",
+    "summary": "Uma criatura alada repousa numa poça rasa. Se perturbada, luta brevemente e foge; a água pode render uma poção por personagem.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Dream Eater} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Nightwatcher Potion}</p>",
     "references": [
       "Dream Eater",
       "Nightwatcher Potion"
     ],
-    "result": "<h3>Banho de Luar</h3><p><strong>Dificuldade:</strong> Médio</p><p>Uma criatura alada repousa numa poça rasa. Se perturbada, luta brevemente e foge; a água pode render uma poção por personagem.</p>"
+    "result": "<h3>Banho de Luar</h3><p><strong>Dificuldade:</strong> Médio</p><p>Uma criatura alada repousa numa poça rasa. Se perturbada, luta brevemente e foge; a água pode render uma poção por personagem.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Dream Eater} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Nightwatcher Potion}</p>",
+    "summaryText": "Uma criatura alada repousa numa poça rasa. Se perturbada, luta brevemente e foge; a água pode render uma poção por personagem."
   },
   {
     "id": 2,
     "title": "Rostos Roubados",
     "difficulty": "Médio",
-    "summary": "Máscaras de madeira pendem de uma árvore morta. Cada máscara retirada faz nascer uma imitação vegetal do personagem que a pegou.",
+    "summary": "Máscaras de madeira pendem de uma árvore morta. Cada máscara retirada faz nascer uma imitação vegetal do personagem que a pegou.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Woodwarped} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Nectar of the Green Man}</p>",
     "references": [
       "Woodwarped",
       "Nectar of the Green Man"
     ],
-    "result": "<h3>Rostos Roubados</h3><p><strong>Dificuldade:</strong> Médio</p><p>Máscaras de madeira pendem de uma árvore morta. Cada máscara retirada faz nascer uma imitação vegetal do personagem que a pegou.</p>"
+    "result": "<h3>Rostos Roubados</h3><p><strong>Dificuldade:</strong> Médio</p><p>Máscaras de madeira pendem de uma árvore morta. Cada máscara retirada faz nascer uma imitação vegetal do personagem que a pegou.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Woodwarped} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Nectar of the Green Man}</p>",
+    "summaryText": "Máscaras de madeira pendem de uma árvore morta. Cada máscara retirada faz nascer uma imitação vegetal do personagem que a pegou."
   },
   {
     "id": 3,
     "title": "Oferenda Enterrada",
     "difficulty": "Fácil",
-    "summary": "Uma estátua de pedra e vime guarda montes de terra vazios. Enterrar algo ligado à vida faz surgir uma recompensa vegetal.",
+    "summary": "Uma estátua de pedra e vime guarda montes de terra vazios. Enterrar algo ligado à vida faz surgir uma recompensa vegetal.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Nectar of the Green Man}</p>",
     "references": [
       "Nectar of the Green Man"
     ],
-    "result": "<h3>Oferenda Enterrada</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Uma estátua de pedra e vime guarda montes de terra vazios. Enterrar algo ligado à vida faz surgir uma recompensa vegetal.</p>"
+    "result": "<h3>Oferenda Enterrada</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Uma estátua de pedra e vime guarda montes de terra vazios. Enterrar algo ligado à vida faz surgir uma recompensa vegetal.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Nectar of the Green Man}</p>",
+    "summaryText": "Uma estátua de pedra e vime guarda montes de terra vazios. Enterrar algo ligado à vida faz surgir uma recompensa vegetal."
   },
   {
     "id": 4,
     "title": "À Luz da Vela",
     "difficulty": "Difícil",
-    "summary": "Cultistas realizam um ritual ao redor de uma vela negra. Se não forem interrompidos, manifestam uma efígie hostil; a vela também pode beneficiar os personagens.",
+    "summary": "Cultistas realizam um ritual ao redor de uma vela negra. Se não forem interrompidos, manifestam uma efígie hostil; a vela também pode beneficiar os personagens.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Black Candle} · @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Old Ways Chosen} · @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Crooked Effigy}</p>",
     "references": [
       "Black Candle",
       "Old Ways Chosen",
       "Crooked Effigy"
     ],
-    "result": "<h3>À Luz da Vela</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Cultistas realizam um ritual ao redor de uma vela negra. Se não forem interrompidos, manifestam uma efígie hostil; a vela também pode beneficiar os personagens.</p>"
+    "result": "<h3>À Luz da Vela</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Cultistas realizam um ritual ao redor de uma vela negra. Se não forem interrompidos, manifestam uma efígie hostil; a vela também pode beneficiar os personagens.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Black Candle} · @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Old Ways Chosen} · @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Crooked Effigy}</p>",
+    "summaryText": "Cultistas realizam um ritual ao redor de uma vela negra. Se não forem interrompidos, manifestam uma efígie hostil; a vela também pode beneficiar os personagens."
   },
   {
     "id": 5,
     "title": "Círculo da Fome",
     "difficulty": "Difícil",
-    "summary": "Um aldeão pede socorro enquanto lobos o cercam. Em níveis altos, toda a cena pode ser uma ilusão criada por um predador psíquico.",
+    "summary": "Um aldeão pede socorro enquanto lobos o cercam. Em níveis altos, toda a cena pode ser uma ilusão criada por um predador psíquico.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Hypnovulfen} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Harvest Brew} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Sight of Sin}</p>",
     "references": [
       "Hypnovulfen",
       "Harvest Brew",
       "Sight of Sin"
     ],
-    "result": "<h3>Círculo da Fome</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Um aldeão pede socorro enquanto lobos o cercam. Em níveis altos, toda a cena pode ser uma ilusão criada por um predador psíquico.</p>"
+    "result": "<h3>Círculo da Fome</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Um aldeão pede socorro enquanto lobos o cercam. Em níveis altos, toda a cena pode ser uma ilusão criada por um predador psíquico.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Hypnovulfen} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Harvest Brew} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Sight of Sin}</p>",
+    "summaryText": "Um aldeão pede socorro enquanto lobos o cercam. Em níveis altos, toda a cena pode ser uma ilusão criada por um predador psíquico."
   },
   {
     "id": 6,
     "title": "Inferno nos Calcanhares",
     "difficulty": "Médio",
-    "summary": "Um cavalo ferido chega sem cavaleiro, perseguido por cães-morcego. Salvar e acalmar o animal revela um familiar; fracassar deixa uma poção no alforje.",
+    "summary": "Um cavalo ferido chega sem cavaleiro, perseguido por cães-morcego. Salvar e acalmar o animal revela um familiar; fracassar deixa uma poção no alforje.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Bat Hounds} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Hemonculus} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Draught of the Red Hunger}</p>",
     "references": [
       "Bat Hounds",
       "Hemonculus",
       "Draught of the Red Hunger"
     ],
-    "result": "<h3>Inferno nos Calcanhares</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um cavalo ferido chega sem cavaleiro, perseguido por cães-morcego. Salvar e acalmar o animal revela um familiar; fracassar deixa uma poção no alforje.</p>"
+    "result": "<h3>Inferno nos Calcanhares</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um cavalo ferido chega sem cavaleiro, perseguido por cães-morcego. Salvar e acalmar o animal revela um familiar; fracassar deixa uma poção no alforje.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Bat Hounds} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Hemonculus} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Draught of the Red Hunger}</p>",
+    "summaryText": "Um cavalo ferido chega sem cavaleiro, perseguido por cães-morcego. Salvar e acalmar o animal revela um familiar; fracassar deixa uma poção no alforje."
   },
   {
     "id": 7,
     "title": "Pedras Risonhas",
     "difficulty": "Médio",
-    "summary": "Um círculo de pedras abafa todo som. Retirar uma pedra liberta uma criatura risonha, que é banida se a pedra for recolocada.",
+    "summary": "Um círculo de pedras abafa todo som. Retirar uma pedra liberta uma criatura risonha, que é banida se a pedra for recolocada.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Kackle} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Cape of the Mountebank}</p>",
     "references": [
       "Kackle",
       "Cape of the Mountebank"
     ],
-    "result": "<h3>Pedras Risonhas</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um círculo de pedras abafa todo som. Retirar uma pedra liberta uma criatura risonha, que é banida se a pedra for recolocada.</p>"
+    "result": "<h3>Pedras Risonhas</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um círculo de pedras abafa todo som. Retirar uma pedra liberta uma criatura risonha, que é banida se a pedra for recolocada.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Kackle} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Cape of the Mountebank}</p>",
+    "summaryText": "Um círculo de pedras abafa todo som. Retirar uma pedra liberta uma criatura risonha, que é banida se a pedra for recolocada."
   },
   {
     "id": 8,
     "title": "Deixado para Ferver",
     "difficulty": "Trivial",
-    "summary": "Um Dingpot tenta conversar com sapos que são aldeões transformados, enquanto corujas gigantes tentam capturá-los. Proteger os sapos pode criar um vínculo.",
+    "summary": "Um Dingpot tenta conversar com sapos que são aldeões transformados, enquanto corujas gigantes tentam capturá-los. Proteger os sapos pode criar um vínculo.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Dingpot} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Lilypad Tonic}</p>",
     "references": [
       "Dingpot",
       "Lilypad Tonic"
     ],
-    "result": "<h3>Deixado para Ferver</h3><p><strong>Dificuldade:</strong> Trivial</p><p>Um @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Dingpot} tenta conversar com sapos que são aldeões transformados, enquanto corujas gigantes tentam capturá-los. Proteger os sapos pode criar um vínculo.</p>"
+    "result": "<h3>Deixado para Ferver</h3><p><strong>Dificuldade:</strong> Trivial</p><p>Um Dingpot tenta conversar com sapos que são aldeões transformados, enquanto corujas gigantes tentam capturá-los. Proteger os sapos pode criar um vínculo.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Dingpot} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Lilypad Tonic}</p>",
+    "summaryText": "Um Dingpot tenta conversar com sapos que são aldeões transformados, enquanto corujas gigantes tentam capturá-los. Proteger os sapos pode criar um vínculo."
   },
   {
     "id": 9,
     "title": "A Escolha da Pega",
     "difficulty": "Fácil",
-    "summary": "Uma pega oferece um pequeno presente com efeito aleatório de sorte ou azar. Aceitar os três presentes com educação pode gerar uma aliada.",
+    "summary": "Uma pega oferece um pequeno presente com efeito aleatório de sorte ou azar. Aceitar os três presentes com educação pode gerar uma aliada.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Magpie of Omens}</p>",
     "references": [
       "Magpie of Omens"
     ],
-    "result": "<h3>A Escolha da Pega</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Uma pega oferece um pequeno presente com efeito aleatório de sorte ou azar. Aceitar os três presentes com educação pode gerar uma aliada.</p>"
+    "result": "<h3>A Escolha da Pega</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Uma pega oferece um pequeno presente com efeito aleatório de sorte ou azar. Aceitar os três presentes com educação pode gerar uma aliada.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Magpie of Omens}</p>",
+    "summaryText": "Uma pega oferece um pequeno presente com efeito aleatório de sorte ou azar. Aceitar os três presentes com educação pode gerar uma aliada."
   },
   {
     "id": 10,
     "title": "Aquele que Esperou",
     "difficulty": "Médio",
-    "summary": "Um cadáver segura uma grande corneta no alto de uma árvore. Qualquer som alto atrai um verme subterrâneo, que pode ser conduzido até água.",
+    "summary": "Um cadáver segura uma grande corneta no alto de uma árvore. Qualquer som alto atrai um verme subterrâneo, que pode ser conduzido até água.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Wellwyrm}</p>",
     "references": [
       "Wellwyrm"
     ],
-    "result": "<h3>Aquele que Esperou</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um cadáver segura uma grande corneta no alto de uma árvore. Qualquer som alto atrai um verme subterrâneo, que pode ser conduzido até água.</p>"
+    "result": "<h3>Aquele que Esperou</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um cadáver segura uma grande corneta no alto de uma árvore. Qualquer som alto atrai um verme subterrâneo, que pode ser conduzido até água.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Wellwyrm}</p>",
+    "summaryText": "Um cadáver segura uma grande corneta no alto de uma árvore. Qualquer som alto atrai um verme subterrâneo, que pode ser conduzido até água."
   },
   {
     "id": 11,
     "title": "Passe Adiante",
     "difficulty": "Fácil",
-    "summary": "Sob uma placa há rum amaldiçoado e uma ficha de pôquer. Retirar os objetos sem pagar um valor equivalente inicia uma barganha sombria.",
+    "summary": "Sob uma placa há rum amaldiçoado e uma ficha de pôquer. Retirar os objetos sem pagar um valor equivalente inicia uma barganha sombria.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Jinxed Rum} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Jinxed Poker Chip}</p>",
     "references": [
       "Jinxed Rum",
       "Jinxed Poker Chip"
     ],
-    "result": "<h3>Passe Adiante</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Sob uma placa há rum amaldiçoado e uma ficha de pôquer. Retirar os objetos sem pagar um valor equivalente inicia uma barganha sombria.</p>"
+    "result": "<h3>Passe Adiante</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Sob uma placa há rum amaldiçoado e uma ficha de pôquer. Retirar os objetos sem pagar um valor equivalente inicia uma barganha sombria.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Jinxed Rum} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Jinxed Poker Chip}</p>",
+    "summaryText": "Sob uma placa há rum amaldiçoado e uma ficha de pôquer. Retirar os objetos sem pagar um valor equivalente inicia uma barganha sombria."
   },
   {
     "id": 12,
     "title": "Arrancado do Caminho",
     "difficulty": "Difícil",
-    "summary": "Um violino ensanguentado concede proficiência e sintonia ao primeiro que o tocar. Dias depois, um diabo vem exigir sua devolução.",
+    "summary": "Um violino ensanguentado concede proficiência e sintonia ao primeiro que o tocar. Dias depois, um diabo vem exigir sua devolução.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Bloody Fiddle} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Devilbone Button}</p>",
     "references": [
       "Bloody Fiddle",
       "Devilbone Button"
     ],
-    "result": "<h3>Arrancado do Caminho</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Um violino ensanguentado concede proficiência e sintonia ao primeiro que o tocar. Dias depois, um diabo vem exigir sua devolução.</p>"
+    "result": "<h3>Arrancado do Caminho</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Um violino ensanguentado concede proficiência e sintonia ao primeiro que o tocar. Dias depois, um diabo vem exigir sua devolução.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Bloody Fiddle} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Devilbone Button}</p>",
+    "summaryText": "Um violino ensanguentado concede proficiência e sintonia ao primeiro que o tocar. Dias depois, um diabo vem exigir sua devolução."
   },
   {
     "id": 13,
     "title": "Um Preço pelo Rebanho",
     "difficulty": "Fácil",
-    "summary": "Cabras pastam sob a vigilância de um predador que aguarda uma oferta viva. Alimentá-lo pode criar um vínculo; expulsá-lo salva o rebanho.",
+    "summary": "Cabras pastam sob a vigilância de um predador que aguarda uma oferta viva. Alimentá-lo pode criar um vínculo; expulsá-lo salva o rebanho.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Goatstealer}</p>",
     "references": [
       "Goatstealer"
     ],
-    "result": "<h3>Um Preço pelo Rebanho</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Cabras pastam sob a vigilância de um predador que aguarda uma oferta viva. Alimentá-lo pode criar um vínculo; expulsá-lo salva o rebanho.</p>"
+    "result": "<h3>Um Preço pelo Rebanho</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Cabras pastam sob a vigilância de um predador que aguarda uma oferta viva. Alimentá-lo pode criar um vínculo; expulsá-lo salva o rebanho.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Goatstealer}</p>",
+    "summaryText": "Cabras pastam sob a vigilância de um predador que aguarda uma oferta viva. Alimentá-lo pode criar um vínculo; expulsá-lo salva o rebanho."
   },
   {
     "id": 14,
     "title": "Dorme, Bebê",
     "difficulty": "Difícil",
-    "summary": "Um berço se balança sozinho e guarda uma tesoura prateada. O móvel é um mimic que ataca quando perturbado.",
+    "summary": "Um berço se balança sozinho e guarda uma tesoura prateada. O móvel é um mimic que ataca quando perturbado.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Midwife Shears}</p>",
     "references": [
       "Midwife Shears"
     ],
-    "result": "<h3>Dorme, Bebê</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Um berço se balança sozinho e guarda uma tesoura prateada. O móvel é um mimic que ataca quando perturbado.</p>"
+    "result": "<h3>Dorme, Bebê</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Um berço se balança sozinho e guarda uma tesoura prateada. O móvel é um mimic que ataca quando perturbado.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Midwife Shears}</p>",
+    "summaryText": "Um berço se balança sozinho e guarda uma tesoura prateada. O móvel é um mimic que ataca quando perturbado."
   },
   {
     "id": 15,
     "title": "A Segunda Mordida da Cereja",
     "difficulty": "Médio",
-    "summary": "Um espírito cuida de uma árvore frutífera e não consegue concluir sua última colheita. Ajudá-lo liberta o fantasma e produz frutos mágicos.",
+    "summary": "Um espírito cuida de uma árvore frutífera e não consegue concluir sua última colheita. Ajudá-lo liberta o fantasma e produz frutos mágicos.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Wayward Haint} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Reaper’s Revenge}</p>",
     "references": [
       "Wayward Haint",
       "Reaper’s Revenge"
     ],
-    "result": "<h3>A Segunda Mordida da Cereja</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um espírito cuida de uma árvore frutífera e não consegue concluir sua última colheita. Ajudá-lo liberta o fantasma e produz frutos mágicos.</p>"
+    "result": "<h3>A Segunda Mordida da Cereja</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um espírito cuida de uma árvore frutífera e não consegue concluir sua última colheita. Ajudá-lo liberta o fantasma e produz frutos mágicos.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Wayward Haint} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Reaper’s Revenge}</p>",
+    "summaryText": "Um espírito cuida de uma árvore frutífera e não consegue concluir sua última colheita. Ajudá-lo liberta o fantasma e produz frutos mágicos."
   },
   {
     "id": 16,
     "title": "Cheiro de Ganância",
     "difficulty": "Médio",
-    "summary": "Uma caverna exala um fedor perceptível à distância. Monstros escondidos atacam quem entra; derrotá-los revela barras de prata.",
+    "summary": "Uma caverna exala um fedor perceptível à distância. Monstros escondidos atacam quem entra; derrotá-los revela barras de prata.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Deepdrecks}</p>",
     "references": [
       "Deepdrecks"
     ],
-    "result": "<h3>Cheiro de Ganância</h3><p><strong>Dificuldade:</strong> Médio</p><p>Uma caverna exala um fedor perceptível à distância. Monstros escondidos atacam quem entra; derrotá-los revela barras de prata.</p>"
+    "result": "<h3>Cheiro de Ganância</h3><p><strong>Dificuldade:</strong> Médio</p><p>Uma caverna exala um fedor perceptível à distância. Monstros escondidos atacam quem entra; derrotá-los revela barras de prata.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Deepdrecks}</p>",
+    "summaryText": "Uma caverna exala um fedor perceptível à distância. Monstros escondidos atacam quem entra; derrotá-los revela barras de prata."
   },
   {
     "id": 17,
     "title": "Mais Grosso que a Água",
     "difficulty": "Difícil",
-    "summary": "Uma garrafa de vinho contém doses de uma bebida perigosa. Abrir a garrafa atrai mortos-vivos, e vencê-los melhora a mistura.",
+    "summary": "Uma garrafa de vinho contém doses de uma bebida perigosa. Abrir a garrafa atrai mortos-vivos, e vencê-los melhora a mistura.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Draught of the Red Hunger}</p>",
     "references": [
       "Draught of the Red Hunger"
     ],
-    "result": "<h3>Mais Grosso que a Água</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Uma garrafa de vinho contém doses de uma bebida perigosa. Abrir a garrafa atrai mortos-vivos, e vencê-los melhora a mistura.</p>"
+    "result": "<h3>Mais Grosso que a Água</h3><p><strong>Dificuldade:</strong> Difícil</p><p>Uma garrafa de vinho contém doses de uma bebida perigosa. Abrir a garrafa atrai mortos-vivos, e vencê-los melhora a mistura.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Draught of the Red Hunger}</p>",
+    "summaryText": "Uma garrafa de vinho contém doses de uma bebida perigosa. Abrir a garrafa atrai mortos-vivos, e vencê-los melhora a mistura."
   },
   {
     "id": 18,
     "title": "Sede de Histórias",
     "difficulty": "Médio",
-    "summary": "Um Moonshine conta histórias e convida o grupo a participar. Recusar atrai mortos-vivos; a melhor história conquista sua amizade.",
+    "summary": "Um Moonshine conta histórias e convida o grupo a participar. Recusar atrai mortos-vivos; a melhor história conquista sua amizade.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Moonshine} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Haint Hooch}</p>",
     "references": [
       "Moonshine",
       "Haint Hooch"
     ],
-    "result": "<h3>Sede de Histórias</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Moonshine} conta histórias e convida o grupo a participar. Recusar atrai mortos-vivos; a melhor história conquista sua amizade.</p>"
+    "result": "<h3>Sede de Histórias</h3><p><strong>Dificuldade:</strong> Médio</p><p>Um Moonshine conta histórias e convida o grupo a participar. Recusar atrai mortos-vivos; a melhor história conquista sua amizade.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Moonshine} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Haint Hooch}</p>",
+    "summaryText": "Um Moonshine conta histórias e convida o grupo a participar. Recusar atrai mortos-vivos; a melhor história conquista sua amizade."
   },
   {
     "id": 19,
     "title": "O Guia Esfarrapado",
     "difficulty": "Trivial",
-    "summary": "Um viajante oferece poções e passagem segura em troca de um custo futuro. Aceitar acelera a próxima jornada, mas reduz temporariamente os dados de vida.",
+    "summary": "Um viajante oferece poções e passagem segura em troca de um custo futuro. Aceitar acelera a próxima jornada, mas reduz temporariamente os dados de vida.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Elixir of Fogwalking}</p>",
     "references": [
       "Elixir of Fogwalking"
     ],
-    "result": "<h3>O Guia Esfarrapado</h3><p><strong>Dificuldade:</strong> Trivial</p><p>Um viajante oferece poções e passagem segura em troca de um custo futuro. Aceitar acelera a próxima jornada, mas reduz temporariamente os dados de vida.</p>"
+    "result": "<h3>O Guia Esfarrapado</h3><p><strong>Dificuldade:</strong> Trivial</p><p>Um viajante oferece poções e passagem segura em troca de um custo futuro. Aceitar acelera a próxima jornada, mas reduz temporariamente os dados de vida.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Elixir of Fogwalking}</p>",
+    "summaryText": "Um viajante oferece poções e passagem segura em troca de um custo futuro. Aceitar acelera a próxima jornada, mas reduz temporariamente os dados de vida."
   },
   {
     "id": 20,
     "title": "Fio de Afeto",
     "difficulty": "Trivial",
-    "summary": "Uma Witchwoven aguarda um encontro romântico e precisa de conselhos. Ajudá-la concede heroísmo temporário; o fracasso deixa uma tintura melancólica.",
+    "summary": "Uma Witchwoven aguarda um encontro romântico e precisa de conselhos. Ajudá-la concede heroísmo temporário; o fracasso deixa uma tintura melancólica.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Witchwoven} · @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Corn Dolly} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Tincture of Mourning}</p>",
     "references": [
       "Witchwoven",
       "Corn Dolly",
       "Tincture of Mourning"
     ],
-    "result": "<h3>Fio de Afeto</h3><p><strong>Dificuldade:</strong> Trivial</p><p>Uma @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Witchwoven} aguarda um encontro romântico e precisa de conselhos. Ajudá-la concede heroísmo temporário; o fracasso deixa uma tintura melancólica.</p>"
+    "result": "<h3>Fio de Afeto</h3><p><strong>Dificuldade:</strong> Trivial</p><p>Uma Witchwoven aguarda um encontro romântico e precisa de conselhos. Ajudá-la concede heroísmo temporário; o fracasso deixa uma tintura melancólica.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Witchwoven} · @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Corn Dolly} · @Compendium[the-crooked-moon-2014.tcm2014-treasury]{Tincture of Mourning}</p>",
+    "summaryText": "Uma Witchwoven aguarda um encontro romântico e precisa de conselhos. Ajudá-la concede heroísmo temporário; o fracasso deixa uma tintura melancólica."
   },
   {
     "id": 21,
     "title": "Sob a Ponte",
     "difficulty": "Fácil",
-    "summary": "Um salmão mágico agoniza no leito seco de um rio sem seu orbe de água. Encontrar e devolver o orbe pode criar um vínculo duradouro.",
+    "summary": "Um salmão mágico agoniza no leito seco de um rio sem seu orbe de água. Encontrar e devolver o orbe pode criar um vínculo duradouro.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Salmon of Knowledge}</p>",
     "references": [
       "Salmon of Knowledge"
     ],
-    "result": "<h3>Sob a Ponte</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Um salmão mágico agoniza no leito seco de um rio sem seu orbe de água. Encontrar e devolver o orbe pode criar um vínculo duradouro.</p>"
+    "result": "<h3>Sob a Ponte</h3><p><strong>Dificuldade:</strong> Fácil</p><p>Um salmão mágico agoniza no leito seco de um rio sem seu orbe de água. Encontrar e devolver o orbe pode criar um vínculo duradouro.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Salmon of Knowledge}</p>",
+    "summaryText": "Um salmão mágico agoniza no leito seco de um rio sem seu orbe de água. Encontrar e devolver o orbe pode criar um vínculo duradouro."
   },
   {
     "id": 22,
     "title": "Bons Desejos",
     "difficulty": "Médio",
-    "summary": "Uma voz pede uma lembrança sentimental num poço seco. Atender faz surgir um rastejador fantasmagórico amigável; recusar provoca um ataque espectral.",
+    "summary": "Uma voz pede uma lembrança sentimental num poço seco. Atender faz surgir um rastejador fantasmagórico amigável; recusar provoca um ataque espectral.<p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Ghost Crawler}</p>",
     "references": [
       "Ghost Crawler"
     ],
-    "result": "<h3>Bons Desejos</h3><p><strong>Dificuldade:</strong> Médio</p><p>Uma voz pede uma lembrança sentimental num poço seco. Atender faz surgir um rastejador fantasmagórico amigável; recusar provoca um ataque espectral.</p>"
+    "result": "<h3>Bons Desejos</h3><p><strong>Dificuldade:</strong> Médio</p><p>Uma voz pede uma lembrança sentimental num poço seco. Atender faz surgir um rastejador fantasmagórico amigável; recusar provoca um ataque espectral.</p><p><strong>Referências para montar:</strong> @Compendium[the-crooked-moon-2014.tcm2014-bestiary]{Ghost Crawler}</p>",
+    "summaryText": "Uma voz pede uma lembrança sentimental num poço seco. Atender faz surgir um rastejador fantasmagórico amigável; recusar provoca um ataque espectral."
   }
 ]
