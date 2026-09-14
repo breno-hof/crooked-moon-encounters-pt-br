@@ -1,5 +1,6 @@
 const MODULE_ID = 'crooked-moon-encounters-pt-br';
 const TCM_PACKS = ['tcm2014-bestiary', 'tcm2014-treasury', 'tcm2014-rollable-tables'];
+const ENCOUNTER_PACKS = ['encounters', 'encounters-table'];
 
 async function findTCMDocument(name) {
   for (const packName of TCM_PACKS) {
