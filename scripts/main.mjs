@@ -1,6 +1,5 @@
 const MODULE_ID = 'crooked-moon-encounters-pt-br';
 const TCM_PACKS = ['tcm2014-bestiary', 'tcm2014-treasury', 'tcm2014-rollable-tables'];
-const ENCOUNTER_PACKS = ['encounters', 'encounters-table'];
 
 async function findTCMDocument(name) {
   for (const packName of TCM_PACKS) {
@@ -26,16 +25,15 @@ async function linkReferences(root) {
     const link = document.createElement('a');
     link.className = 'content-link entity-link';
     link.dataset.uuid = resolved.uuid;
-    link.dataset.id = resolved.uuid.split('.').pop();
-    link.dataset.type = 'JournalEntry';
-    link.dataset.pack = resolved.uuid.split('.').slice(1, -1).join('.');
     link.innerHTML = `<i class="fas fa-book-open"></i>${resolved.name}`;
     element.replaceWith(link);
   }
 }
 
-Hooks.on('renderJournalPageText', async (_page, html) => {
-  await linkReferences(html[0] ?? html);
+// Foundry VTT v13 hook for rendered Journal text pages.
+Hooks.on('renderJournalEntryPageTextSheet', async (_application, html) => {
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (root) await linkReferences(root);
 });
 
 Hooks.once('ready', () => {

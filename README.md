@@ -21,7 +21,7 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
    `https://github.com/breno-hof/crooked-moon-encounters-pt-br/releases/latest/download/module.json`
 
 4. Ative os dois módulos no mundo.
-5. Os compêndios `Encontros (PT-BR) — Journals` e `Encontros (PT-BR) — Roll Table` aparecem na aba de Compêndios, ambos com acesso padrão **somente para o Mestre**. A Roll Table abre o Journal correspondente a cada resultado. Nenhuma tabela ou documento é reinjetado no mundo.
+5. Os compêndios `Encontros (PT-BR) — Journals` e `Encontros (PT-BR) — Roll Table` aparecem agrupados na pasta `The Crooked Moon — Encontros (PT-BR)` na aba de Compêndios, ambos com acesso padrão **somente para o Mestre**. A Roll Table abre o Journal correspondente a cada resultado. Nenhuma tabela ou documento é reinjetado no mundo.
 
 ## Compatibilidade
 
@@ -31,6 +31,6 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
 
 ## Desenvolvimento
 
-Os dados públicos e resumidos estão em `data/encounters.json`. Cada Journal Entry é separado em **Cenário**, **Desenvolvimento** e **Resultado**. As referências são resolvidas dinamicamente contra os índices reais dos packs oficiais do TCM, gerando links Foundry `content-link` com o UUID correto. O módulo apenas disponibiliza os dois compêndios próprios, evitando reinjetar tabelas ou duplicar os compêndios proprietários do módulo oficial.
+Os dados públicos e resumidos estão em `data/encounters.json`. Cada Journal Entry é separado em **Cenário**, **Desenvolvimento** e **Resultado**. As referências são resolvidas dinamicamente contra os índices reais dos packs oficiais do TCM, no hook de renderização de Journal do Foundry v13, gerando links Foundry `content-link` com o UUID correto. O módulo apenas disponibiliza os dois compêndios próprios, evitando reinjetar tabelas ou duplicar os compêndios proprietários do módulo oficial.
 
 Uma release é criada automaticamente ao publicar uma tag no formato `vMAJOR.MINOR.PATCH`.
