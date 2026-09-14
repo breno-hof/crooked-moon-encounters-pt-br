@@ -2,7 +2,7 @@ import encounters from '../data/encounters.json' with { type: 'json' };
 
 const MODULE_ID = 'crooked-moon-encounters-pt-br';
 const TABLE_NAME = 'The Crooked Moon — Encontros (PT-BR)';
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 
 function tableData() {
   return {

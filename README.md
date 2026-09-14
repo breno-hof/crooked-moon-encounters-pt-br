@@ -31,6 +31,6 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
 
 ## Desenvolvimento
 
-Os dados públicos e resumidos estão em `data/encounters.json`. Cada `summary` e `result` contém links de compêndio para as criaturas, itens e tabelas necessários à montagem do encontro. O script de inicialização cria a Roll Table no mundo, evitando empacotar ou duplicar os compêndios proprietários do módulo oficial.
+Os dados públicos e resumidos estão em `data/encounters.json`. Cada encontro é separado em **Cenário**, **Desenvolvimento** e **Resultado**; o `result` também contém links de compêndio para as criaturas, itens e tabelas necessários à montagem do encontro. O script de inicialização cria a Roll Table no mundo, evitando empacotar ou duplicar os compêndios proprietários do módulo oficial.
 
 Uma release é criada automaticamente ao publicar uma tag no formato `vMAJOR.MINOR.PATCH`.
