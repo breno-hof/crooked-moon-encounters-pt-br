@@ -2,7 +2,7 @@
   "id": "crooked-moon-encounters-pt-br",
   "title": "The Crooked Moon — Encontros (PT-BR)",
   "description": "Roll Table comunitária com resumos em português dos encontros das cartas de The Crooked Moon. Requer o módulo oficial para acessar criaturas e itens referenciados.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
