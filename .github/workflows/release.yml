@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p dist/crooked-moon-encounters-pt-br
           rsync -a --exclude='.git' --exclude='.github' --exclude='dist' \
-            module.json README.md LICENSE scripts data \
+            module.json README.md LICENSE scripts data packs \
             dist/crooked-moon-encounters-pt-br/
           cd dist
           zip -r ../crooked-moon-encounters-pt-br.zip crooked-moon-encounters-pt-br
