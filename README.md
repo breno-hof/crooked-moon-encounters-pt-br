@@ -1,6 +1,6 @@
 # The Crooked Moon — Encontros (PT-BR)
 
-Módulo comunitário para Foundry VTT que cria automaticamente uma **Roll Table com 22 encontros resumidos em português** inspirados nas cartas de encontros de *The Crooked Moon*.
+Módulo comunitário para Foundry VTT que fornece um **compêndio com 22 Journal Entries de encontros em português** inspirados nas cartas de encontros de *The Crooked Moon*.
 
 ## Escopo e direitos autorais
 
@@ -21,7 +21,7 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
    `https://github.com/breno-hof/crooked-moon-encounters-pt-br/releases/latest/download/module.json`
 
 4. Ative os dois módulos no mundo.
-5. Um GM deve entrar no mundo; a tabela `The Crooked Moon — Encontros (PT-BR)` será criada automaticamente uma única vez e terá acesso padrão **somente para o Mestre**. Se a tabela já existir de uma versão anterior, ela será atualizada pelo módulo.
+5. O compêndio `Encontros (PT-BR)` aparece na aba de Compêndios e suas Journal Entries têm acesso padrão **somente para o Mestre**. Nenhuma tabela ou documento é reinjetado no mundo.
 
 ## Compatibilidade
 
@@ -31,6 +31,6 @@ As referências usam os packs oficiais do módulo `the-crooked-moon-2014`:
 
 ## Desenvolvimento
 
-Os dados públicos e resumidos estão em `data/encounters.json`. Cada encontro é separado em **Cenário**, **Desenvolvimento** e **Resultado**; o `result` também contém links de compêndio para as criaturas, itens e tabelas necessários à montagem do encontro. O script de inicialização cria a Roll Table no mundo, evitando empacotar ou duplicar os compêndios proprietários do módulo oficial.
+Os dados públicos e resumidos estão em `data/encounters.json`. Cada Journal Entry é separado em **Cenário**, **Desenvolvimento** e **Resultado**. As referências são resolvidas dinamicamente contra os índices reais dos packs oficiais do TCM, gerando links Foundry `content-link` com o UUID correto. O módulo apenas disponibiliza o compêndio próprio, evitando reinjetar tabelas ou duplicar os compêndios proprietários do módulo oficial.
 
 Uma release é criada automaticamente ao publicar uma tag no formato `vMAJOR.MINOR.PATCH`.

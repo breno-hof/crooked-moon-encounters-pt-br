@@ -1,39 +1,44 @@
-import encounters from '../data/encounters.json' with { type: 'json' };
-
 const MODULE_ID = 'crooked-moon-encounters-pt-br';
-const TABLE_NAME = 'The Crooked Moon — Encontros (PT-BR)';
-const SCHEMA_VERSION = 3;
+const TCM_PACKS = ['tcm2014-bestiary', 'tcm2014-treasury', 'tcm2014-rollable-tables'];
 
-function tableData() {
-  return {
-    name: TABLE_NAME,
-    description: 'Tabela comunitária com resumos em português e referências ao módulo oficial The Crooked Moon. Visível somente ao Mestre.',
-    formula: '1d22',
-    replacement: true,
-    displayRoll: true,
-    ownership: { default: 0 },
-    results: encounters.map((e) => ({
-      type: CONST.TABLE_RESULT_TYPES.TEXT,
-      text: e.result,
-      weight: 1,
-      range: [e.id, e.id],
-      drawn: false,
-      flags: { [MODULE_ID]: { encounterId: e.id, references: e.references } }
-    })),
-    flags: { [MODULE_ID]: { managed: true, schemaVersion: SCHEMA_VERSION, source: 'CM_Cards_Encounters.pdf', language: 'pt-BR' } }
-  };
+async function findTCMDocument(name) {
+  for (const packName of TCM_PACKS) {
+    const pack = game.packs.get(`the-crooked-moon-2014.${packName}`);
+    if (!pack) continue;
+    const index = await pack.getIndex({fields: ['name', 'type']});
+    const match = index.find(entry => entry.name?.toLocaleLowerCase() === name.toLocaleLowerCase());
+    if (match) return {uuid: `Compendium.${pack.collection}.${match._id}`, name: match.name};
+  }
+  return null;
 }
 
-Hooks.once('ready', async () => {
-  if (!game.user.isGM) return;
-  const existing = game.tables.find(t => t.getFlag(MODULE_ID, 'managed') === true);
-  if (existing) {
-    if (existing.getFlag(MODULE_ID, 'schemaVersion') !== SCHEMA_VERSION) {
-      await existing.update(tableData());
-      ui.notifications.info(`Tabela atualizada: ${existing.name}`);
+async function linkReferences(root) {
+  const references = root.querySelectorAll?.('.tcm-reference[data-tcm-name]') ?? [];
+  for (const element of references) {
+    const name = element.dataset.tcmName;
+    const resolved = await findTCMDocument(name);
+    if (!resolved) {
+      element.classList.add('tcm-reference-missing');
+      element.title = `Instale/ative o pack oficial do TCM para abrir: ${name}`;
+      continue;
     }
-    return;
+    const link = document.createElement('a');
+    link.className = 'content-link entity-link';
+    link.dataset.uuid = resolved.uuid;
+    link.dataset.id = resolved.uuid.split('.').pop();
+    link.dataset.type = 'JournalEntry';
+    link.dataset.pack = resolved.uuid.split('.').slice(1, -1).join('.');
+    link.innerHTML = `<i class="fas fa-book-open"></i>${resolved.name}`;
+    element.replaceWith(link);
   }
-  const table = await RollTable.create(tableData());
-  ui.notifications.info(`Tabela criada: ${table.name}`);
+}
+
+Hooks.on('renderJournalPageText', async (_page, html) => {
+  await linkReferences(html[0] ?? html);
+});
+
+Hooks.once('ready', () => {
+  if (game.user.isGM && !game.modules.get('the-crooked-moon-2014')?.active) {
+    ui.notifications.warn('Ative o módulo oficial The Crooked Moon para que as referências do compêndio sejam clicáveis.');
+  }
 });
