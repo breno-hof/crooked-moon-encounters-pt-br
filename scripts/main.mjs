@@ -1,4 +1,3 @@
-const MODULE_ID = 'crooked-moon-encounters-pt-br';
 const TCM_PACKS = ['tcm2014-bestiary', 'tcm2014-treasury', 'tcm2014-rollable-tables'];
 
 async function findTCMDocument(name) {
@@ -7,13 +6,17 @@ async function findTCMDocument(name) {
     if (!pack) continue;
     const index = await pack.getIndex({fields: ['name', 'type']});
     const match = index.find(entry => entry.name?.toLocaleLowerCase() === name.toLocaleLowerCase());
-    if (match) return {uuid: `Compendium.${pack.collection}.${match._id}`, name: match.name};
+    if (match) {
+      const documentType = pack.documentName || (packName === 'tcm2014-bestiary' ? 'Actor' : packName === 'tcm2014-rollable-tables' ? 'RollTable' : 'Item');
+      return {uuid: `Compendium.${pack.collection}.${documentType}.${match._id}`, name: match.name};
+    }
   }
   return null;
 }
 
 async function linkReferences(root) {
-  const references = root.querySelectorAll?.('.tcm-reference[data-tcm-name]') ?? [];
+  const references = [...(root.querySelectorAll?.('.tcm-reference[data-tcm-name]') ?? [])];
+  if (!references.length) return;
   for (const element of references) {
     const name = element.dataset.tcmName;
     const resolved = await findTCMDocument(name);
@@ -22,11 +25,11 @@ async function linkReferences(root) {
       element.title = `Instale/ative o pack oficial do TCM para abrir: ${name}`;
       continue;
     }
-    const link = document.createElement('a');
-    link.className = 'content-link entity-link';
-    link.dataset.uuid = resolved.uuid;
-    link.innerHTML = `<i class="fas fa-book-open"></i>${resolved.name}`;
-    element.replaceWith(link);
+    // Replace the marker with Foundry's native UUID syntax, then let core enrich it.
+    element.outerHTML = `@UUID[${resolved.uuid}]{${resolved.name}}`;
+  }
+  if (typeof TextEditor?.enrichHTML === 'function') {
+    root.innerHTML = await TextEditor.enrichHTML(root.innerHTML, {async: true});
   }
 }
 
